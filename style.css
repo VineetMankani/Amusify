@@ -21,7 +21,7 @@ a{
 }
 
 #icon{
-    width: 9rem;
+    width: 22%;
 }
 
 #navbarTop{
@@ -238,6 +238,9 @@ svg.play, svg.pause{
     }
     #progressBar{
         width: 65%;
+    }
+    #icon{
+        width: 27%;
     }
 }
 /* 
