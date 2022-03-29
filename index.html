@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="media/general/Amusify Icon.png">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="/js/script.js"></script> -->
+    <title>Amusify</title>
+</head>
+<body>
+
+    <nav id="navbarTop" class="navbar fixed-top row py-2">
+        <div id="me" class="d-flex col-5 justify-content-start">
+            <!-- <button class="btn r bg-dark rounded-pill px-4 mx-3 d-none d-md-block">UPGRADE</button> -->
+            <button id="owner" class="btn r rounded-pill px-3 mx-3">VineetMankani</button>
+        </div>
+        <div id="socialLinks" class="pe-5 d-flex col-4 justify-content-end">
+            <a href="https://twitter.com/VineetMankani" class="px-2" target="_blank"><img
+                    src="media/general/Twitter Logo.png" alt="Twitter"></a>
+            <a href="https://www.facebook.com/vineet.mankani/" class="px-2" target="_blank"><img
+                    src="media/general/Facebook Logo.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/vineet.mankani/" class="px-2" target="_blank"><img
+                    src="media/general/Instagram Logo.png" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/in/vineet-mankani-8880841b8/" class="px-2" target="_blank"><img
+                    src="media/general/LinkedIn Logo.png" alt="LinkedIn"></a>
+            <a href="https://www.youtube.com/channel/UCIFZUwDG22ddKTZCp5uYImA" class="px-2" target="_blank"><img
+                    src="media/general/YouTube Logo.png" alt="YouTube"></a>
+        </div>
+       
+    </nav>
+    
+    <nav id="navbarLeft" class="navbar fixed-top d-flex align-items-start">
+        <div class="container-fluid ps-3">
+            <div class="">
+                <img id="logo" class="img-fluid my-4" width="63%" src="media/general/Amusify Logo.png" alt="Spotify">
+            </div>
+            <div class="row me-5" id="nav">
+                <div class="my-2">
+                    <svg role="img" height="24" width="24" class="mx-2 home-icon" viewBox="0 0 24 24"><path d="M9 14h6v7h5V7.8l-8-4.6-8 4.6V21h5v-7zm1 8H3V7.2L12 2l9 5.2V22h-7v-7h-4v7z"></path></svg>
+                    <span"><a href="">Home</a></span>
+                </div>
+                <div id="search" class="my-2">
+                    <svg role="img" height="24" width="24" class="mx-2 search-icon" viewBox="0 0 24 24"><path d="M16.387 16.623A8.47 8.47 0 0019 10.5a8.5 8.5 0 10-8.5 8.5 8.454 8.454 0 005.125-1.73l4.401 5.153.76-.649-4.399-5.151zM10.5 18C6.364 18 3 14.636 3 10.5S6.364 3 10.5 3 18 6.364 18 10.5 14.636 18 10.5 18z"></path></svg>
+                    <span"><a href="">Search</a></span>
+                </div>
+                <div class="my-2">
+                    <svg role="img" height="24" width="24" class="mx-2 collection-icon" viewBox="0 0 24 24"><path d="M13.66 4.097l-.913.406 7.797 17.513.914-.406L13.66 4.097zM3 22h1V4H3v18zm6 0h1V4H9v18z"></path></svg>
+                    <span"><a href="">Your Library</a></span>
+                </div>
+            
+            </div>
+        </div>
+    </nav>
+
+    <section id="mainContent" class="text-white text-center justify-content-center">
+        
+        <hr>
+        <h2 id="question">WELCOME TO AMUSIFY!</h2>
+        <hr>
+        
+        <div class="d-flex my-2 justify-content-center align-items-center">
+            <svg role="img" height="48" width="48"  viewBox="0 0 16 16" class="mx-3 prev"><path d="M13 2.5L5 7.119V3H3v10h2V8.881l8 4.619z"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="mx-3 play"  width="64" height="64" fill="currentColor"> <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="mx-3 pause d-none" width="64" height="64" fill="currentColor"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.25 5C5.56 5 5 5.56 5 6.25v3.5a1.25 1.25 0 1 0 2.5 0v-3.5C7.5 5.56 6.94 5 6.25 5zm3.5 0c-.69 0-1.25.56-1.25 1.25v3.5a1.25 1.25 0 1 0 2.5 0v-3.5C11 5.56 10.44 5 9.75 5z"/></svg>
+            <svg role="img" height="48" width="48"  viewBox="0 0 16 16" class="mx-3 next"><path d="M11 3v4.119L3 2.5v11l8-4.619V13h2V3z"></path></svg>      
+        </div>
+
+        <div id="action" class="lead">Play</div>
+        <p id="note" class="d-inline"></p>
+        <img src="media/general/playing.gif" id="gif" width="7%" class="img-fluid" alt="Music Playing..">
+
+        <form action="" id="guessInput" method="post" class="row justify-content-center my-2">
+            <div class="col-7 col-md-6 d-flex">
+                <input id="guess" type="text" name="guess" class="form-control mx-2" placeholder="Enter Guess">
+                <button id="guessButton" class="btn btn-outline-light mx-2">Guess</button>
+            </div>
+        </form>
+        
+        <div id="resultBox" class="">
+            <!-- <p id="desc"></p> -->
+        </div>
+        
+        <div id="hintBox">
+            <button id="hintButton" class="btn btn-outline-info px-4 m-2">Options</button>
+            <div id="hint" class="d-none p-2 m-2">
+                <!-- <p>You Have 4 Options..</p> -->
+                <button class="opt btn btn-outline-light rounded-pill px-2 mx-3">1</button>
+                <button class="opt btn btn-outline-light rounded-pill px-2 mx-3">2</button>
+                <button class="opt btn btn-outline-light rounded-pill px-2 mx-3">3</button>
+                <button class="opt btn btn-outline-light rounded-pill px-2 mx-3">4</button>
+            </div>
+        </div>
+
+        <!-- <button id="" class="btn">Next</button> -->
+        <button id="nextSong" class="btn btn-success d-none px-3 my-3">Next Song</button>
+
+    </section>
+
+
+    <footer id="musicPlayer" class="fixed-bottom">
+        <div class="row align-items-center justify-content-center">
+ 
+            <div id="songControls" class="col-10 col-md-8 col-6 row">
+                <div class="col-12 text-center mt-3 mb-1">
+                    <svg class="mx-3"      role="img" style="height: 1em; width: 1em;" height="16" width="16" viewBox="0 0 16 16"><path d="M4.5 6.8l.7-.8C4.1 4.7 2.5 4 .9 4v1c1.3 0 2.6.6 3.5 1.6l.1.2zm7.5 4.7c-1.2 0-2.3-.5-3.2-1.3l-.6.8c1 1 2.4 1.5 3.8 1.5V14l3.5-2-3.5-2v1.5zm0-6V7l3.5-2L12 3v1.5c-1.6 0-3.2.7-4.2 2l-3.4 3.9c-.9 1-2.2 1.6-3.5 1.6v1c1.6 0 3.2-.7 4.2-2l3.4-3.9c.9-1 2.2-1.6 3.5-1.6z"></path></svg>
+                    <svg class="mx-2 prev" role="img" style="height: 1em; width: 1em;" height="16" width="16" viewBox="0 0 16 16"><path d="M13 2.5L5 7.119V3H3v10h2V8.881l8 4.619z"></path></svg>
+                    <svg class="mx-2 play"            style="height: 2em; width: 2em;" height="32" width="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"> <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/></svg>
+                    <svg class="mx-2 pause d-none"    style="height: 2em; width: 2em;" height="32" width="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"   fill="currentColor"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.25 5C5.56 5 5 5.56 5 6.25v3.5a1.25 1.25 0 1 0 2.5 0v-3.5C7.5 5.56 6.94 5 6.25 5zm3.5 0c-.69 0-1.25.56-1.25 1.25v3.5a1.25 1.25 0 1 0 2.5 0v-3.5C11 5.56 10.44 5 9.75 5z"/></svg>
+                    <svg class="mx-2 next" role="img" style="height: 1em; width: 1em;" height="16" width="16" viewBox="0 0 16 16"><path d="M11 3v4.119L3 2.5v11l8-4.619V13h2V3z"></path></svg>
+                    <svg class="mx-3"      role="img" style="height: 1em; width: 1em;" height="16" width="16" viewBox="0 0 16 16"><path d="M5.5 5H10v1.5l3.5-2-3.5-2V4H5.5C3 4 1 6 1 8.5c0 .6.1 1.2.4 1.8l.9-.5C2.1 9.4 2 9 2 8.5 2 6.6 3.6 5 5.5 5zm9.1 1.7l-.9.5c.2.4.3.8.3 1.3 0 1.9-1.6 3.5-3.5 3.5H6v-1.5l-3.5 2 3.5 2V13h4.5C13 13 15 11 15 8.5c0-.6-.1-1.2-.4-1.8z"></path></svg>
+                </div>
+                <div class="col-12 text-center">
+                    <input type="range" id="progressBar" name="range" width="100%" value="0" min="0" max="10000">
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script> -->
+</body>
+</html>
