@@ -16,11 +16,12 @@
 <body>
 
     <nav id="navbarTop" class="navbar fixed-top row py-2">
-        <div id="me" class="d-flex col-5 justify-content-start">
+        <img id="icon" class="img-fluid m-1 d-block d-md-none" src="media/general/Amusify Logo.png" alt="Amusify">
+        <div id="me" class="d-none d-md-flex col-5">
             <!-- <button class="btn r bg-dark rounded-pill px-4 mx-3 d-none d-md-block">UPGRADE</button> -->
             <button id="owner" class="btn r rounded-pill px-3 mx-3">VineetMankani</button>
         </div>
-        <div id="socialLinks" class="pe-5 d-flex col-4 justify-content-end">
+        <div id="socialLinks" class="d-flex col-4 me-5 me-md-0">
             <a href="https://twitter.com/VineetMankani" class="px-2" target="_blank"><img
                     src="media/general/Twitter Logo.png" alt="Twitter"></a>
             <a href="https://www.facebook.com/vineet.mankani/" class="px-2" target="_blank"><img
@@ -32,13 +33,14 @@
             <a href="https://www.youtube.com/channel/UCIFZUwDG22ddKTZCp5uYImA" class="px-2" target="_blank"><img
                     src="media/general/YouTube Logo.png" alt="YouTube"></a>
         </div>
+        
        
     </nav>
     
     <nav id="navbarLeft" class="navbar fixed-top d-flex align-items-start">
         <div class="container-fluid ps-3">
             <div class="">
-                <img id="logo" class="img-fluid my-4" width="63%" src="media/general/Amusify Logo.png" alt="Spotify">
+                <img id="logo" class="img-fluid my-4" width="63%" src="media/general/Amusify Logo.png" alt="Amusify">
             </div>
             <div class="row me-5" id="nav">
                 <div class="my-2">
@@ -76,7 +78,7 @@
         <img src="media/general/playing.gif" id="gif" width="7%" class="img-fluid" alt="Music Playing..">
 
         <form action="" id="guessInput" method="post" class="row justify-content-center my-2">
-            <div class="col-7 col-md-6 d-flex">
+            <div class="col-9 col-sm-7 col-md-6 d-flex">
                 <input id="guess" type="text" name="guess" class="form-control mx-2" placeholder="Enter Guess">
                 <button id="guessButton" class="btn btn-outline-light mx-2">Guess</button>
             </div>
@@ -115,7 +117,7 @@
                     <svg class="mx-2 next" role="img" style="height: 1em; width: 1em;" height="16" width="16" viewBox="0 0 16 16"><path d="M11 3v4.119L3 2.5v11l8-4.619V13h2V3z"></path></svg>
                     <svg class="mx-3"      role="img" style="height: 1em; width: 1em;" height="16" width="16" viewBox="0 0 16 16"><path d="M5.5 5H10v1.5l3.5-2-3.5-2V4H5.5C3 4 1 6 1 8.5c0 .6.1 1.2.4 1.8l.9-.5C2.1 9.4 2 9 2 8.5 2 6.6 3.6 5 5.5 5zm9.1 1.7l-.9.5c.2.4.3.8.3 1.3 0 1.9-1.6 3.5-3.5 3.5H6v-1.5l-3.5 2 3.5 2V13h4.5C13 13 15 11 15 8.5c0-.6-.1-1.2-.4-1.8z"></path></svg>
                 </div>
-                <div class="col-12 text-center">
+                <div class="col-12 bg-dark text-center">
                     <input type="range" id="progressBar" name="range" width="100%" value="0" min="0" max="10000">
                 </div>
             </div>

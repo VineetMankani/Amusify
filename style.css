@@ -20,6 +20,10 @@ a{
     text-decoration: none;
 }
 
+#icon{
+    width: 9rem;
+}
+
 #navbarTop{
     background-color: #0a3a40;
     z-index: 1;
@@ -71,10 +75,10 @@ svg{
 /* } */
 
 #progressBar{
-    width: 32vw;
+    width: 50%;
     height: 4px;
     background-color: #B3B3B3;
-    fill: #B3B3B3;
+    fill: #272525;
     color:#B3B3B3; 
 }
 /* .pbardiv{
@@ -113,6 +117,11 @@ svg.play, svg.pause{
 .songBar:hover{
     background-color: #282828;
 }
+
+#socialLinks{
+    justify-content: center;
+}
+
 #socialLinks img{
     z-index: 5;
     color: #FFF;
@@ -204,15 +213,34 @@ svg.play, svg.pause{
         margin-left: 0%;
     }
     #mainContent{
-        margin: 12% 2% 8% 0%;
+        margin: 15% 2% 8% 0%;
     }
     #musicPlayer{
         margin-left: 0%;
     }
+    #me{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    /* #progressBar{
+        width: 37;
+    } */
 }
 
-@media (max-width:575.98px){
+@media (max-width:574.98px){
     #mainContent{
         margin: 25% 2% 8% 0%;
     }
+    #socialLinks{
+        justify-content: center;
+        align-items: center;
+    }
+    #progressBar{
+        width: 65%;
+    }
 }
+/* 
+@media (max-width:424.98px){
+   
+} */
